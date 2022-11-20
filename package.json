@@ -4,6 +4,7 @@
   "description": "Buildkite Pipeline Schema",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "github:triarius/pipeline-schema",
   "scripts": {
     "generate": "npm exec json2ts --in ext/schema.json --out src/schema.ts && npx ts-auto-guard --export-all src/schema.ts",
     "build": "npx tsc",
