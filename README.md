@@ -1,6 +1,8 @@
 Buildkite Pipeline Schema
 ===
 
+WARNING: This is experimental and may not work as expected
+
 Typescript Schema for buildkite generated from https://github.com/buildkite/pipeline-schema
 
 
